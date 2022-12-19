@@ -6,7 +6,7 @@ app = FastAPI()
 
 @app.get("/")
 def index():
-    return "This is the home page of the FastAPI app on AWS first trail"
+    return "This is the home page"
 
 
 @app.get("/sum")
